@@ -12,17 +12,17 @@
     <div>
       <ul>
         <li>
-          <header><a href="#Наши Услуги">Услуги</a></header>
+          <header><a href="index.html#Наши Услуги">Услуги</a></header>
         </li>
         <li>
-          <header><a href="#Устройства которые мы ремонтируем">Устройства</a>
+          <header><a href="index.html#Устройства которые мы ремонтируем">Устройства</a>
           </header>
         </li>
         <li>
-          <header><a href="/comments.html">Отзывы</a></header>
+          <header><a href="comments.html">Отзывы</a></header>
         </li>
         <li>
-          <header><a href="#Связаться с нами">Связаться с нами</a></header>
+          <header><a href="index.html#Связаться с нами">Связаться с нами</a></header>
         </li>
       </ul>
     </div>
@@ -59,6 +59,42 @@
           слишком быстро, задел проходящую мимо бабушку, её телефон разбился при падении, экран ей заменили всё хорошо</td>
       </tr>
     </table>
+    <br>
+    <div>
+      Оставьте ваш отзыв!
+      <form>
+        <br>
+        <label>введите ваше имя:<br>
+          <input type="text" name="name" placeholder="Например:Артём" required>
+        </label>
+        <br>
+        <label>Ссылка на вашу страницу в соцсети (не обязательно):<br>
+          <input type="text" name="url" placeholder="Например:vk.com/petya">
+        </label>
+        <br>
+        <label>Текст вашего отзыва:<br>
+          <textarea cols="50" rows="10" placeholder="Оставьте свой отзыв здесь" required></textarea>
+        </label>
+        <br>
+        <label>
+        <input type="radio" value="1" name="star quantity">Ужасно!
+      </label>
+        <label>
+          <input type="radio" value="2" name="star quantity">Плохо!
+        </label>
+        <label>
+          <input type="radio" value="3" name="star quantity">Неплохо!
+        </label>
+        <label>
+          <input type="radio" value="4" name="star quantity">Отлично!
+        </label>
+        <label>
+          <input type="radio" value="5" name="star quantity" checked>Превосходно!
+        </label>
+        <br>
+        <button action="submit">Оставить отзыв</button>
+      </form>
+    </div>
     <footer>
       <h3>
         Связаться с нами
@@ -72,18 +108,19 @@
             <td>Электронная почта</td>
           </tr>
           <tr>
-            <td>8-800-555-35-35</td>
+            <td><a href="tel:88005553535">8-800-555-35-35</a></td>
             <td>Ул. Кировоградская, Д. 25</td>
-            <td>CHINITELI@gmail.com</td>
+            <td><a href="mailto:CHINITELI@gmail.com">CHINITELI@gmail.com</a></td>
           </tr>
           <tr>
-            <td>+375(33)-123-33-635</td>
+            <td><a href="tel:+3753312333635">+375(33)-123-33-635</a></td>
             <td>Ул. Минская, Д.17, офис 17</td>
-            <td>IMicrowavedMyPhone@apple.com</td>
+            <td><a href="mailto:IMicrowavedMyPhone@apple.com">IMicrowavedMyPhone@apple.com</a></td>
           </tr>
         </tbody>
       </table>
     </footer>
+
   </body>
 
 </html>
