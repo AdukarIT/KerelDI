@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>Создать пост</title>
-  <figure><img src="pics/123.jpg" width="200" height="200"></figure>
-  <p>Sampletext</p>
-</head>
-<body>
+  <h1>Instagram</h1>
+  <figure><img src="pics/123.jpg" width="150" height="90" alt="логотип"></figure>
+  </head>
+<body><br>
+  <button><a href="feed.html">Вернутья в ленту</a></button><br><br>
   <form action="feed.html" method="post">
-    <label>то, чем вы хотите поделиться:<br>
-      <input type="url" name="content" required>
-    </label><br>
-    <button>
     <label>ваш комментарий (не обязательно)<br>
-      <textarea cols="50" rows="10"></textarea>
-    </label>
+      <textarea cols="40" rows="10"></textarea>
+    </label><br>
+    <label>загрузить файл
+    <input type="file" name="file" accept=".jpg .png .mp4" required>
+  </label><br><br>
+    <button>Запостить!</button>
+  </form>
+</body>
+</html>

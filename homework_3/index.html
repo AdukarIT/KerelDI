@@ -3,22 +3,26 @@
 <head>
   <meta charset="utf-8">
   <title>Добро пожаловать</title>
-  <figure><img src="pics/123.jpg" width="200" height="200"></figure>
-  <p>Sampletext</p>
+  <h1>Instagram</h1>
+  <figure><img src="pics/123.jpg" width="150" height="90" alt="логотип"></figure>
 </head>
 <body>
-
+<br>
+<div>
+	Вход в аккаунт
   <form action="feed.html" method="post">
 <label>введите имя пользователя:<br>
   <input type="text" name="nickname" required>
 </label><br>
 <label> введите пароль:<br>
   <input type="text" name="password" required>
-</label><br>
-    <button type="submit">
-    </form><br>
-    Регистрация нового пользователя:
-    <form action="handler.php" method="post">
+</label><br><br>
+    <button>Войти</button>
+    </form>
+</div><br><br>
+<div>
+    Регистрация нового пользователя:<br><br>
+    <form action="feed.html" method="post">
       <label>введите адрес электронной почты:<br>
         <input type="email" name="mail" required>
       </label><br>
@@ -32,5 +36,10 @@
         <input type="text" name="password" required>
       </label><br>
       я соглашаюсь с порядком обработки персональных данных
-      <input type="checkbox" required>
-    </form><br>
+      <input type="checkbox" required><br><br>
+      <button>Зарегистрироваться</button>
+    </form>
+</div>
+</body>
+</html>
+
