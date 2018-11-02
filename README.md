@@ -16,3 +16,13 @@
 https://jsfiddle.net/Shibuiul/4me89pkb/1/
 
 https://jsfiddle.net/Shibuiul/ofm5ew43/14/ 
+
+задание3
+
+https://github.com/AdukarIT/KerelDI/tree/master/homework_2
+
+https://github.com/AdukarIT/KerelDI/tree/master/homework2_task2
+
+продвинутый html
+
+https://github.com/AdukarIT/KerelDI/tree/master/homework_3
