@@ -26,3 +26,5 @@ https://github.com/AdukarIT/KerelDI/tree/master/homework2_task2
 продвинутый html
 
 https://github.com/AdukarIT/KerelDI/tree/master/homework_3
+
+https://github.com/AdukarIT/KerelDI/tree/master/homework_3_task2
