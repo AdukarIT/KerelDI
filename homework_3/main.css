@@ -1,9 +1,39 @@
+body {
+	background-color: rgba(255,00,255,.5);
+}
+
+.site_name {
+	border: 3px solid;
+	margin-left: 160px;
+	margin-right: 150px;
+	text-align:center;
+	background-color: #999
+}
+
+.logo {
+	text-align: center;
+	margin-bottom: 50px
+}
+
 .button {
-	padding: 8px 4px;
-	margin-top: 20mm;
-	margin-bottom: 20mm;
-	border: 1px solid;
+	padding: 15px 600px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 100px;
+	border: 2px solid;
+	border-radius: 20px;
 	background-color: #888;
 	color: #000;
+	font-family: arial;
+	font-size: 16pt;
+	font-weight: 700;
 	text-decoration: none
+}
+
+.feed {
+	margin-top: 60px;
+	background-color: #888;
+	border: 5px solid;
+	margin-left: 150px;
+	margin-right: 125px
 }
