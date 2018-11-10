@@ -28,3 +28,11 @@ https://github.com/AdukarIT/KerelDI/tree/master/homework2_task2
 https://github.com/AdukarIT/KerelDI/tree/master/homework_3
 
 https://github.com/AdukarIT/KerelDI/tree/master/homework_3_task2
+
+css tests
+
+https://webref.ru/node/1865/quiz-results/2566/view
+
+https://webref.ru/node/1459/quiz-results/2568/view
+
+https://webref.ru/node/1921/quiz-results/2569/view
