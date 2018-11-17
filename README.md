@@ -36,3 +36,7 @@ https://webref.ru/node/1865/quiz-results/2566/view
 https://webref.ru/node/1459/quiz-results/2568/view
 
 https://webref.ru/node/1921/quiz-results/2569/view
+
+css-blocks_homework
+
+https://github.com/AdukarIT/KerelDI/tree/master/css-blocks_homework
