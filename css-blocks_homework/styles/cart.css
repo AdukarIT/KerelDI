@@ -1,0 +1,125 @@
+body {
+	background-color: #888;
+}
+
+a {
+	font-size: 14pt;
+	font-family: arial;
+}
+
+label {
+	font-size: 12pt;
+	font-family: cursive;
+}
+
+.menu {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 30px;
+	margin-left: 90px;
+	text-align: center;
+	padding-top: 6px;
+	border:solid 2px;
+}
+
+.menu_items {
+	display: none;
+}
+
+.delivery-form {
+	margin-top: 145px;
+	position: relative;
+	width: 60%;
+	background-color: #666;
+	border: 3px solid rgba(255,0,100,1);
+}
+
+.map {
+	display: none;
+}
+
+.credentials {
+	display: block;
+	border: 2px dashed;
+	margin-top: 15px;
+	padding: 2px;
+}
+
+.decorated-text {
+	border-bottom: 1px dashed;
+	font-weight: 700;
+}
+.addres {
+	display: none;
+}
+
+.addres:checked + .map {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 110%;
+}
+
+.delivery-type {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.hidden-input {
+	display: none;
+}
+
+.addres-info:checked + .hidden-input{
+	display: block;
+	width: 35%;
+	margin-top: 5px;
+	padding: 2px;
+	border: 3px dashed;
+}
+
+.complete-order {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.blockade {
+	width: 102px;
+	height: 101px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: 2;
+	background-color: rgba(255,66,66,0.5);
+}
+
+.list {
+	display: inline-block;
+	padding: 5px 0px 5px 10px;
+}
+
+.menu:hover .menu_items {
+	display: inline-block;
+	position: absolute;
+	width: 240px;
+	border:solid 2px;
+	left: 0px;
+	top: 20px;
+}
+
+.confirmation:checked ~ .blockade {
+	display: none;
+}
+
+.contact-info {
+	position: fixed;
+	padding-left: 10px;
+	bottom: 0px;
+	background-color: #555;
+	border-top: 4px solid rgba(255,255,255,1);
+}

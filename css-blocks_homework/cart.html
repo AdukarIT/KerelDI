@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/cart.css">
+	<title>Корзина</title>
+</head>
+
+<body>
+	<h1>
+		Битовая технека и/или ктронека
+	</h1>
+<div>
+	<div class="menu">
+		Бытовая техника
+		<ul class="menu_items">
+			<li>Стиральные машины</li>
+			<li>Пылесосы</li>
+			<li>Швейные, Вышивальные машины</li>
+			<li>Утюги</li>
+			<li>Электровеники</li>
+			<li>Сушилки для обуви</li>
+		</ul>
+	</div>
+	<div class="menu">
+		Техника для кухни
+		<ul class="menu_items">
+			<li>Холодильники</li>
+			<li>Кухонные плиты</li>
+			<li>Морозильники</li>
+			<li>Настольные плиты</li>
+			<li>Ростеры, Мини-печи</li>
+			<li>Вытяжки</li>
+			<li>Микроволновые печи</li>
+		</ul>
+	</div>
+	<div class="menu">
+		Компьютерная техника
+		<ul class="menu_items">
+			<li>Ноутбуки</li>
+			<li>Планшеты</li>
+			<li>Компьютеры, моноблоки</li>
+			<li>Игровые приставки</li>
+			<li>Серверное оборудование</li>
+		</ul>
+	</div>
+	<div class="menu">
+	Корзина
+    </div>
+</div>
+<div class="delivery-form">
+	<form>
+		Форма отправки заказа:<br>
+		<label class="credentials">
+			Имя, Фамилия:
+			<input type="text" name="name_surname" required>
+		</label>
+		<label class="credentials">
+			Номер телефона:
+			<input type="text" name="phone_number" required>
+		</label>
+		<label class="credentials">
+			Эл.Почта:
+			<input type="text" name="e-mail" required>
+		</label><br>
+		Выберите способ доставки:
+		<label class="delivery-type">
+			Самовывоз со склада по адресу
+			<input type="radio" name="type_of_delivery" value="1" required>
+			<label class="decorated-text">Адрес
+			<input class="addres" type="checkbox" name="switch">
+			<div class="map">
+	                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18805.244349902798!2d27.606083449246086!3d53.90232605969911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbce44f7f73733%3A0xf0b8f452a0b9027c!2z0KLRgNCw0LrRgtC-0YDQvdGL0Lkg0LfQsNCy0L7QtA!5e0!3m2!1sru!2sby!4v1542427736151" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+	                 </iframe>
+                </div>
+		    </label>	
+		</label>
+		<label class="delivery-type">
+			Курьером по Минску
+			<input class="addres-info" type="radio" name="type_of_delivery" value="2" required>
+			<label class="hidden-input">
+			Введите адрес доставки
+			<input type="text" name="addres">
+		</label>
+		</label>
+		<label>
+			Комментарий к заказу:
+			<input type="text" name="commentary" required>
+		</label><br>
+		<input class="confirmation" type="checkbox" id="124" name="agreement" required>
+		<label for="124">Я прочитал и согласен с условиями доставки</label>
+		<div class="blockade"></div>
+		<button class="complete-order" action="submit">Оформить заказ</button>
+	</form>
+</div>
+
+<footer>
+	<div class="contact-info">
+	Время работы:
+	<ul>
+		<li>
+			c 9:00 до 16:00
+	    </li>
+	    <li>
+	    	с 10:00 до 17:00
+	    </li>
+	</ul>
+	адрес офиса:
+	<ul>
+		<li>
+			Ул. Чипадросовая, д.17
+		</li>
+		<li>
+			Ул. Черпадосковая, д.71
+		</li>
+	</ul>
+	<div class="list">
+		Телефоны:<br>
+		<a href="tel:+21324242">+213-24-242</a><br>
+		<a href="tel:80171324242">8-017-13-24-242</a><br>
+		<a href="tel:+3372721324242">+33727-213-24-242</a>
+	</div>
+	<div class="list">
+		Скайп:
+		<a href="skype:lapis?call">Lapis</a>
+		<a href="skype:lupis?call">Lupis</a>
+	</div>
+</div>
+</footer>
+</body>
+
+</html>
