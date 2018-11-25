@@ -3,21 +3,26 @@ body {
 }
 
 a {
-	font-size: 14pt;
+	font-size: 16px;
 	font-family: arial;
+	text-decoration: none;
 }
 
 label {
-	font-size: 12pt;
+	font-size: 18px;
 	font-family: cursive;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
 }
 
 .menu {
 	display: inline-block;
 	position: relative;
-	width: 200px;
+	width: 15%;
 	height: 30px;
-	margin-left: 90px;
 	text-align: center;
 	padding-top: 6px;
 	border:solid 2px;
