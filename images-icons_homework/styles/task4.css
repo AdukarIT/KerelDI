@@ -1,0 +1,32 @@
+header {
+	border: 5px solid;
+}
+
+form {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 40%;
+}
+
+.menu-header {
+	display: inline-block;
+	position: relative;
+	margin-left: 10%;
+	margin-bottom: 15%;
+	padding: 5px;
+	border: 1px solid;
+	text-align: center;
+}
+
+.menu-items {
+	display: none;
+}
+
+.menu-header:hover > .menu-items {
+	display: block;
+	position: absolute;
+	top: 45%;
+	width: 150px;
+	height: 200px;
+	border: 1px solid;
+}

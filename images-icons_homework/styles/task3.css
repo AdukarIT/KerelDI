@@ -1,0 +1,33 @@
+label {
+	display: inline-block;
+	margin-left: 125px;
+	margin-top: 150px;
+	cursor: pointer;
+}
+
+span {
+	width: 45px;
+	height: 49px;
+}
+
+.custom-checkbox {
+	display: none;
+}
+
+.checkbox_unchecked {
+	background-image: url(images/checkbox-off.png);
+	display: inline-block;
+}
+
+.checkbox_checked {
+	display: none;
+	background-image: url(images/checkbox-on.png);
+}
+
+.custom-checkbox:checked ~ .checkbox_unchecked {
+	display: none;
+}
+
+.custom-checkbox:checked ~ .checkbox_checked {
+	display: inline-block;
+}

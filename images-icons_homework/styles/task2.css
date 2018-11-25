@@ -1,0 +1,41 @@
+@font-face {
+	font-family: fontello;
+	src: url("fonts/fontello.woff");
+}
+
+a {
+	text-decoration: none;
+}
+
+.like-button {
+	display: none;
+}
+
+span {
+	font-family: fontello;
+ }
+
+.filled-heart {
+	display: none;
+}
+
+.empty-heart {
+	color: #666;
+}
+
+label:hover .empty-heart {
+	color: rgba(0,0,255,0.8);
+}
+
+.like-button:checked ~ .empty-heart {
+	display: none;
+}
+
+.like-button:checked ~ .filled-heart {
+	display: inline-block;
+	color: rgba(255,0,0,1);
+}
+
+label:hover .like-button:checked ~ .filled-heart {
+	color: rgba(255,0,0,0.7);
+}
