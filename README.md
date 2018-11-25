@@ -40,3 +40,7 @@ https://webref.ru/node/1921/quiz-results/2569/view
 css-blocks_homework
 
 https://github.com/AdukarIT/KerelDI/tree/master/css-blocks_homework
+
+images-icons_homework
+
+https://github.com/AdukarIT/KerelDI/tree/master/images-icons_homework
