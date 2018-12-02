@@ -1,0 +1,114 @@
+@font-face {
+	font-family: fontello;
+	src: url("fonts/fontello.woff");
+	src: url("fonts/fontello.ttf");
+}
+
+body {
+	background: url("https://static.tildacdn.com/tild3566-3137-4638-a432-643863316231/land-ct.jpg") no-repeat;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	overflow: hidden;
+}
+
+.main-block {
+	margin-top: -8px;
+	margin-left: -20px;
+	margin-right: -20px;
+	background-color: rgba(100, 100, 100, 0.7);
+}
+
+.top-panel {
+	border-bottom: 1px black solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.top-panel__item-1 {
+	width: 35%;
+	text-align: left;
+	padding-left: 55px;
+}
+
+.top-panel__item-2 {
+	width: 10%;
+	font-size: 24px;
+}
+
+.top-panel__item-3 {
+	width: 10%;
+	font-size: 24px;
+}
+
+.top-panel__item-4 {
+	width: 20%;
+	margin-left: 25px;
+}
+
+.top-panel__item-5 {
+	width: 15%;
+}
+
+.middle-panel {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.icon-image {
+	width: 100px;
+	height: 100px;
+}
+
+.find-more {
+	width: 300px;
+	height: 45px;
+	margin-bottom: 150px;
+	background-color: rgba(255, 0, 0, 1);
+	border: 5px solid rgba(255,0,0,1);
+	border-radius: 8px;
+	color: #fff;
+	font-size: 20px;
+}
+
+figcaption {
+	text-align: left;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-family: arial;
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+span {
+	margin-left: 10px;
+	font-family: fontello;
+	font-size: 26px;
+	color: black;
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 25px;
+}
+
+i {
+	font-size: 24px;
+}
+
+p {
+	padding-top: 100px;
+}
