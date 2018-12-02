@@ -1,0 +1,87 @@
+@font-face {
+	font-family: fontello;
+	src: url("fonts/task-2/fontello.woff");
+	src: url("fonts/task-2/fontello.ttf");
+}
+
+span {
+	font-family: fontello;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 24px;
+}
+
+a:hover {
+	background-color: #888;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+div[id="bell__items"],div[id="note__items"] {
+	display: none;
+}
+
+input[id="bell"]:checked ~ div[id="bell__items"] {
+	display: block;
+}
+
+input[id="note"]:checked ~ div[id="note__items"] {
+	display: block;
+}
+
+body {
+	background: rgba(70,70,70,0.2);
+}
+
+.top-panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	margin: -10px 0px 0px -8px; 
+	background: #4a76a8;
+	border-bottom: 1px solid black;
+}
+
+.middle-panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.left-middle-panel {
+
+
+}
+
+.center-middle-panel {
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: #fff;
+}
+
+.right-middle-panel {
+	height: 107px;
+	background: #fff;
+	border: 1px solid black;
+}
+
+.post-header {
+
+}
+
+.post-main {
+
+}
+
+.post-footer {
+
+}
