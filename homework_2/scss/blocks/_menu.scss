@@ -1,0 +1,11 @@
+.menu {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width:100%;
+}
+
+.menu-item {
+	width: 20%;
+	height: 50px;
+}
