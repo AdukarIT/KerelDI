@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #646464;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+* a {
+  text-decoration: none;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 93%;
+  height: 80%;
+  margin: 2% 3%;
+  border: 1px solid #e0e0e0;
+  border-radius: 2em;
+  background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+  box-shadow: -7px 7px 25px 0px rgba(0, 0, 0, 0.37);
+}
+
+.main-block__sub-block__left {
+  margin: 1.8em 0 1.8em 2em;
+}
+
+.main-block__sub-block__middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  padding: 0 2em;
+}
+
+.style-text {
+  font-family: Roboto;
+}
+
+.style-text_bold {
+  font-family: Roboto_bold;
+}
+
+.button {
+  width: 336px;
+  height: 47px;
+  color: #fff;
+  background-color: black;
+  margin-top: 2em;
+}
+
+.main-block__sub-block__right {
+  margin: 1.8em 0 1.8em 0;
+}
+
+.link_underlined {
+  color: #000;
+  text-decoration: underline;
+}
+
+.sub-block__panel {
+  height: 255px;
+  width: 250px;
+}
+
+.sub-block__panel__left {
+  background: url(img/BG_elem_left.png) no-repeat;
+}
+
+.sub-block__panel__right {
+  background: url(img/BG_elem_right.png) no-repeat;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/BankGothicRegular);
+}
+@font-face {
+  font-family: Roboto_bold;
+  src: url(fonts/BankGothicBold);
+}
+@font-face {
+  font-family: fontello;
+  src: url(fonts/fontello);
+}
+.icon-text {
+  font-family: fontello;
+}
+
+/*# sourceMappingURL=main.css.map */

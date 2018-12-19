@@ -1,0 +1,32 @@
+@import "_sub-block__left";
+@import "_sub-block__middle";
+@import "_sub-block__right";
+
+.sub-block__panel {
+	height: 255px;
+	width: 250px;
+}
+
+.sub-block__panel__left {
+	background: url(img/BG_elem_left.png) no-repeat;
+	width: 255px;
+    height: 250px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sub-block__panel__right {
+	background: url(img/BG_elem_right.png) no-repeat;
+	width: 284px;
+    height: 250px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

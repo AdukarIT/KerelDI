@@ -1,0 +1,21 @@
+@import "_main-block";
+@import "_sub-blocks";
+
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/BankGothicRegular);
+}
+
+@font-face {
+	font-family: Roboto_bold;
+	src: url(fonts/BankGothicBold);
+}
+
+@font-face {
+	font-family: fontello;
+	src: url(fonts/fontello);
+}
+
+.icon-text {
+	font-family: fontello;
+}

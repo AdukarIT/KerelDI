@@ -1,0 +1,13 @@
+.main-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 93%;
+	height: 80%;
+	margin: 2% 3%;
+    border: 1px solid #e0e0e0;
+    border-radius: 2em;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+	box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+}
