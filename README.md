@@ -44,3 +44,9 @@ https://github.com/AdukarIT/KerelDI/tree/master/css-blocks_homework
 images-icons_homework
 
 https://github.com/AdukarIT/KerelDI/tree/master/images-icons_homework
+
+
+
+Курсовой ~ЯплакаЛь~
+
+https://shibuiul.github.io/berlin/public/
