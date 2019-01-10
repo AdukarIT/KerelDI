@@ -47,6 +47,4 @@ https://github.com/AdukarIT/KerelDI/tree/master/images-icons_homework
 
 
 
-Курсовой ~ЯплакаЛь~
-
-https://shibuiul.github.io/berlin/public/
+[Курсовой ~ЯплакаЛь~](https://shibuiul.github.io/berlin/public/)
