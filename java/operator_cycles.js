@@ -77,9 +77,32 @@ for (multiplier = 1; multiplier <= 10; multiplier++) {
 
 var odd = 1;
 var zero = 0;
+var divident = odd % 2;
 
 for (; odd < 50; odd+2) {
-    if((odd%2) => 1)
+    if(odd % 2,  => 1) {
     continue;
     console.log (zero + odd);
+    zero = odd;
+    }
+    else {
+    break;
+    }
+}
+
+
+
+var odd = 1;
+var zero = 0;
+var divident = odd % 2;
+var summ = zero + odd;
+
+for (odd = 1; odd < 50; odd+2) {
+    if(divident => 1) {
+    console.log (zero + odd);
+    zero = odd;
+    }
+    else {
+    break;
+    }
 }
