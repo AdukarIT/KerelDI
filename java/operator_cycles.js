@@ -3,23 +3,22 @@
 
 var flat_number = prompt ("введите номер квартиры", "");
 
-switch (flat_number) {
-	case (flat_number > 0 && 20 >= flat_number) :
+if (flat_number > 0 && 20 >= flat_number) {
 	console.log("это первый подъезд");
-	break;
-	case (flat_number > 20 && 40 >= flat_number) :
+	}
+else if (flat_number > 20 && 40 >= flat_number) {
 	console.log("это второй подъезд");
-	break;
-	case (flat_number > 40 && 60 >= flat_number) :
+	}
+else if (flat_number > 40 && 60 >= flat_number) {
 	console.log("это третий подъезд");
-	break;
-	case (flat_number > 60 && 80 >= flat_number) :
+	}
+else if (flat_number > 60 && 80 >= flat_number) {
 	console.log("это четвёртый подъезд");
-	break;
-	case (flat_number > 80 && 100 >= flat_number) :
+	}
+else if (flat_number > 80 && 100 >= flat_number) {
 	console.log("это пятый подъезд");
-	break;
-	default:
+    }
+else {
 	console.log("в этом доме нет такой квартиры");
 }
 
@@ -28,26 +27,25 @@ switch (flat_number) {
 
 var carLabel = prompt ("введите марку автомобиля", "");
 
-switch (carLabel) {
-	case (carLabel === "BMW") :
+if (carLabel === "BMW") {
 	console.log(carLabel + " cтрана происхождения - Германия");
-	break;
-	case (carLabel === "Ford") :
+}
+else if (carLabel === "Ford") {
 	console.log(carLabel + " cтрана происхождения - Страна");
-	break;
-	case (carLabel === "Peugeot") :
+}
+else if (carLabel === "Peugeot") {
 	console.log(carLabel + " cтрана происхождения - Франция");
-	break;
-	case (carLabel === "Hyundai") :
+}
+else if (carLabel === "Hyundai") {
 	console.log(carLabel + " cтрана происхождения - Корея");
-	break;
-	case (carLabel === "KIA") :
+}
+else if (carLabel === "KIA") {
 	console.log(carLabel + " cтрана происхождения - Корея");
-	break;
-	case (carLabel === "Mercedes-Benz") :
+}
+else if (carLabel === "Mercedes-Benz") {
 	console.log(carLabel + " cтрана происхождения - Германия");
-	break;
-	default:
+}
+else {
 	console.log(carLabel + " страна происхождения неизвестна");
 }
 
@@ -76,14 +74,13 @@ for (multiplier = 1; multiplier <= 10; multiplier++) {
 /* задание 5 */
 
 var odd = 1;
-var zero = 0;
+var result = 0;
 var divident = odd % 2;
 
-for (; odd < 50; odd+2) {
-    if(odd % 2,  => 1) {
-    continue;
-    console.log (zero + odd);
-    zero = odd;
+for (odd = 1; odd < 50; odd = odd + 2) {
+    if(divident => 1) {
+    console.log (result + odd);
+    result += odd;
     }
     else {
     break;
@@ -91,18 +88,23 @@ for (; odd < 50; odd+2) {
 }
 
 
+/* задание 6 */
 
-var odd = 1;
-var zero = 0;
-var divident = odd % 2;
-var summ = zero + odd;
 
-for (odd = 1; odd < 50; odd+2) {
-    if(divident => 1) {
-    console.log (zero + odd);
-    zero = odd;
+/* задание 7 */
+
+var hashtag = "#";
+var space = " ";
+var i = 1;
+var divident = i % 2;
+var evenString = hashtag + space + hashtag + space + hashtag + space + hashtag;
+var oddString = space + hashtag + space + hashtag + space + hashtag + space + hashtag;
+
+for (i = 1; i < 9; i++) {
+    if(divident > 0) {
+    console.log(oddString);
     }
-    else {
-    break;
+    else if(divident = 0) {
+    console.log(evenString);
     }
 }
