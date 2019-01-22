@@ -82,13 +82,30 @@ for (odd = 1; odd < 50; odd = odd + 2) {
     console.log (result + odd);
     result += odd;
     }
-    else {
-    break;
-    }
 }
 
 
 /* задание 6 */
+
+var firstFluidValue = 1;
+var secondFluidValue = 1;
+var i = 0;
+
+console.log(firstFluidValue);
+console.log(secondFluidValue);
+
+
+for (i; i < 15; i++) {
+  var divident = i % 2;
+  if(divident > 0) {
+	console.log(firstFluidValue + secondFluidValue);
+	firstFluidValue += secondFluidValue;
+	}
+  else if(divident < 1) {
+    console.log(firstFluidValue + secondFluidValue);
+    secondFluidValue += firstFluidValue;
+	}
+}
 
 
 /* задание 7 */
@@ -99,7 +116,7 @@ var i = 1;
 var evenString = hashtag + space + hashtag + space + hashtag + space + hashtag;
 var oddString = space + hashtag + space + hashtag + space + hashtag + space + hashtag;
 
-for (i = 1; i < 9; i++) {
+for (i = 1; i < 9; i++) {           /* same as i=0;i<8;i++ */
     var divident = i % 2;
     if(divident > 0) {
     console.log(oddString);
