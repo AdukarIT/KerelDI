@@ -11,7 +11,7 @@ function smallestNumber(x, y, z) {
 
 // задание 2
 
-function secondsCalculator(day, hour, minute) {
+function toSecondsConverter(day, hour, minute) {
 	day = prompt("введите количество суток", "или не вводите");
 	hour = prompt("введите количество часов", "или не вводите");
 	minute = prompt("введите количество минут", "или не вводите");
