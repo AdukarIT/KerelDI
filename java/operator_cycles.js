@@ -96,15 +96,15 @@ for (odd = 1; odd < 50; odd = odd + 2) {
 var hashtag = "#";
 var space = " ";
 var i = 1;
-var divident = i % 2;
 var evenString = hashtag + space + hashtag + space + hashtag + space + hashtag;
 var oddString = space + hashtag + space + hashtag + space + hashtag + space + hashtag;
 
 for (i = 1; i < 9; i++) {
+    var divident = i % 2;
     if(divident > 0) {
     console.log(oddString);
     }
-    else if(divident = 0) {
+    else if(divident < 1) {
     console.log(evenString);
     }
 }
