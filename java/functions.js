@@ -48,6 +48,6 @@ function squareRoots(a, b, c) {
 	var c = prompt("", "число 3");
 	if (a => 0 && b => 0 && c => 0) { return 3; }
 	else if (a < 0 || b < 0 || c < 0) { return 1; }
+	else if (a < 0 && b < 0 && c < 0) { return 1; }
 	else { return 2; }
-	
 }
