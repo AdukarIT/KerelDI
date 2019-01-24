@@ -22,3 +22,25 @@ function toSecondsConverter(day, hour, minute) {
 	if (hour > 0) {console.log(fromHour);}
 	if (minute > 0) {console.log(fromMinute);}
 }
+
+// task 3
+
+function factorial(x) {
+		return (x!=1) ? x * factorial( x - 1) : 1;
+}
+
+// task 4
+
+
+
+//task 5
+
+function squareRoots(a, b, c) {
+	var a = prompt("введите три числа для подсчёта квадратных корней", "число 1");
+	var b = prompt("", "число 2");
+	var c = prompt("", "число 3");
+	if (a => 0 && b => 0 && c => 0) { return 3; }
+	else if (a < 0 || b < 0 || c < 0) { return 1; }
+	else { return 2; }
+	
+}
