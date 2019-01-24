@@ -31,6 +31,13 @@ function factorial(x) {
 
 // task 4
 
+function reverser(firstChar, secondChar, thirdChar, fourthChar) {
+	var firstChar = prompt("введите число до 10 тысяч по цифрам", "первая"), 
+	secondChar = prompt("введите число до 10 тысяч по цифрам", "вторая"), 
+	thirdChar = prompt("введите число до 10 тысяч по цифрам", "третяя"), 
+	fourthChar = prompt("введите число до 10 тысяч по цифрам", "четвёртая");
+	return fourthChar + thirdChar + secondChar + firstChar;
+}
 
 
 //task 5
