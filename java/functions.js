@@ -39,6 +39,15 @@ function reverser(firstChar, secondChar, thirdChar, fourthChar) {
 	return fourthChar + thirdChar + secondChar + firstChar;
 }
 
+function	reverter(number) {
+	if (number > 10) {
+		return (number % 10 + reverter((number - (number % 10)) / 10));	
+	} 
+	else {
+		return String(number); 
+	} 
+} 
+
 
 //task 5
 
