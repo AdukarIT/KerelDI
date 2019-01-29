@@ -46,5 +46,21 @@ images-icons_homework
 https://github.com/AdukarIT/KerelDI/tree/master/images-icons_homework
 
 
-
 [Курсовой ~ЯплакаЛь~](https://shibuiul.github.io/berlin/public/)
+/////////////////////////////////////////////////////////////////////////
+
+Java
+
+циклы операторы 
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/operator_cycles.js
+
+функции
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/functions.js
+
+дебагер/практика
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/debugger.js
+
+
