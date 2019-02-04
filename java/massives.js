@@ -5,10 +5,11 @@ function getRandomArbitrary(min, max) {
 }
 
 
-function massiveOfRandomNum(len) {
-	var randomMassive = {};
-	randomMassive.lenght = len;
-	for (var i = 0; randomMassive[i] < randomMassive.length; i++) {
-		randomMassive[i] = Math.random();
+function getRandomArray(len) {
+	var randomArray = [];
+	randomArray.lenght = len;
+	for (var i = 0; i < len; i++) {
+		randomArray[i] = Math.random();
 	}
+	return randomArray;
 }
