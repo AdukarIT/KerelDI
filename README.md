@@ -63,4 +63,11 @@ https://github.com/AdukarIT/KerelDI/blob/master/java/functions.js
 
 https://github.com/AdukarIT/KerelDI/blob/master/java/debugger.js
 
+массивы
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/massives.js
+
+объекты
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/objects.js
 
