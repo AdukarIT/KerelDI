@@ -8,7 +8,7 @@ function nameCheck(object, string) {
 
 //2
 
-var poorManDinner {
+var poorManDinner = {
 	name: "quick noodles",
 	ingridients: {
 		package: 1,
@@ -28,7 +28,7 @@ function recipe(poorManDinner, people) {
 
 //3
 
-let cilinder {
+let cilinder = {
 	radius: x,
 	height: y,
 	volume: function(x, y){
@@ -38,7 +38,7 @@ let cilinder {
 
 //4
 
-let penguin {
+let penguin = {
 	name: "Pen",
 	creator: "Anno",
 	title: "Evangelion",
