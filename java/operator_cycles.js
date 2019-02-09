@@ -3,7 +3,7 @@
 
 var flat_number = prompt ("введите номер квартиры", "");
 
-if (flat_number > 0 && 20 >= flat_number) {
+if (flat_number > 0 && 20 >= flat_number) { // можно и общее решение сделать, подумайте, как вы будете писать код для 1000000 квартир
 	console.log("это первый подъезд");
 	}
 else if (flat_number > 20 && 40 >= flat_number) {
@@ -27,7 +27,7 @@ else {
 
 var carLabel = prompt ("введите марку автомобиля", "");
 
-if (carLabel === "BMW") {
+if (carLabel === "BMW") { // такие вещи лучше писать через switch case
 	console.log(carLabel + " cтрана происхождения - Германия");
 }
 else if (carLabel === "Ford") {
@@ -64,10 +64,10 @@ console.log("это високосный год");
 /* задание 4 */
 
 var multiplyTable = prompt ("введите число от 1 до 20", "");
-var multiplier = 1;
+var multiplier = 1; // это тут не нужно
 
-for (multiplier = 1; multiplier <= 10; multiplier++) {
-	console.log(multiplyTable + "x" + multiplier, "=", (multiplyTable*multiplier));
+for (multiplier = 1; multiplier <= 10; multiplier++) { // потому что есть здесь
+	console.log(multiplyTable + "x" + multiplier, "=", (multiplyTable*multiplier)); // такие строки лучше разбивать
 }
 
 
@@ -116,7 +116,7 @@ var i = 1;
 var evenString = hashtag + space + hashtag + space + hashtag + space + hashtag;
 var oddString = space + hashtag + space + hashtag + space + hashtag + space + hashtag;
 
-for (i = 1; i < 9; i++) {           /* same as i=0;i<8;i++ */
+for (i = 1; i < 9; i++) {           /* same as i=0;i<8;i++ */ // вы дважды присвоили одинаковое значение в i, а ваш комментарий (ваш?) мне вообще не ясен
     var divident = i % 2;
     if(divident > 0) {
     console.log(oddString);
