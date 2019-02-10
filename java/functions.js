@@ -26,12 +26,12 @@ function toSecondsConverter(day, hour, minute) {
 // task 3
 
 function factorial(x) {
-		return (x!=1) ? x * factorial( x - 1) : 1;
+		return (x!=1) ? x * factorial( x - 1) : 1; // на проверке скобки не обязательны
 }
 
 // task 4
 
-function reverser(firstChar, secondChar, thirdChar, fourthChar) {
+function reverser(firstChar, secondChar, thirdChar, fourthChar) { // зачем нужна эта функция? и что это за аргументы
 	var firstChar = prompt("введите число до 10 тысяч по цифрам", "первая"), 
 	secondChar = prompt("введите число до 10 тысяч по цифрам", "вторая"), 
 	thirdChar = prompt("введите число до 10 тысяч по цифрам", "третяя"), 

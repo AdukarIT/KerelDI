@@ -23,7 +23,7 @@ function getRandomArray(len) {
 		randomArray[i] = Math.random();
 	}
 	return randomArray;
-	var test = 0
+	var test = 0 // весь код ниже никогда не выполниться
 	for (var i = 0; i < len; i++) {
 		test += randomArray[i];
 	}
@@ -39,7 +39,7 @@ function compareNumeric(a, b) {
   return a - b;
 }
 
-function getRandomArray(len) {
+function getRandomArray(len) { // название не соответствует сути
 	var randomArray = [];
 	randomArray.lenght = len;
 	for (var i = 0; i < len; i++) {
@@ -57,8 +57,8 @@ function getRandomArray(len) {
 	for (var i = 0; i < len; i++) {
 		randomArray[i] = Math.random();
 	}
-	if (randomArray[i] < 0.3) {
-		randomArray[i] = 0;
+	if (randomArray[i] < 0.3) { // вы не находитесь в цикле, поэтому проверять будете последний элемент
+		randomArray[i] = 0; // не выполнено условие задачи
 	}
 }/*4.1*/
 
@@ -68,7 +68,7 @@ function getRandomArray(len) {
 	for (var i = 0; i < len; i++) {
 		randomArray[i] = Math.random();
 	}
-	if (randomArray[i] < 0.3) {
+	if (randomArray[i] < 0.3) { // тоже самое
 		randomArray.splice(i, 1, "0");
 	}
 }/*4.2*/

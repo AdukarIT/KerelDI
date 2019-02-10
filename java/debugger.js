@@ -5,15 +5,15 @@ function rectangleTriangle(catetA, catetB, hypotenuse) {
 	catetB = prompt(""),
 	hypotenuse = prompt("");
 	 if (catetA**2 + catetB**2 == hypotenuse**2) {
-	 	return true;
+	 	return true; // это нужно оптимизировать
 	 }
 }
 
 // 2
 
 function repeat(str, n) {
-	var str = "",
-	    n =  2,
+	var str = "", // зачем
+	    n =  2,  // перезаписывать аргументы?
 	    result = "";
 
 	for (var i = 1; i < n; i++) {
@@ -91,23 +91,23 @@ var inputZero = prompt("введите ноль", "");
 do {
 	prompt("введите ноль", "");
 }
-while (inputZero);
+while (inputZero); // в каком случае цикл остановиться?
 
 // 6
 
 do {
 	var summ = prompt("введите ноль", "");
-	summ += prompt("", ""); 
+	summ += prompt("", ""); // что нужно ввести-то?)
 }
 while (summ < 100);
 
 // 7 
 
 function primeNumber(primeNumberTest) {
-	if (primeNumberTest % 2 || primeNumberTest % 4 || primeNumberTest % 6 || primeNumberTest % 8 || primeNumberTest % 5) {
+	if (primeNumberTest % 2 || primeNumberTest % 4 || primeNumberTest % 6 || primeNumberTest % 8 || primeNumberTest % 5) { // плохо
 	    return "это не простое число";
 	}
-	if (primeNumberTest % 3 || primeNumberTest % 7 || primeNumberTest % 11 || primeNumberTest % 13 || primeNumberTest % 17 || primeNumberTest % 19) {
+	if (primeNumberTest % 3 || primeNumberTest % 7 || primeNumberTest % 11 || primeNumberTest % 13 || primeNumberTest % 17 || primeNumberTest % 19) { // посмотрите что такое простое число
 	    return "простое";
 	}
 }
@@ -125,7 +125,7 @@ function monthToSeason(month) {
 
 // 9
 
-for (var i = 97; i > 10; i--) {
+for (var i = 97; i > 10; i--) { // условия не верные
 	if (i % 10 == 7) {
 		console.log(i);
 	}

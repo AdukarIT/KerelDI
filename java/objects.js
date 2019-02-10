@@ -1,9 +1,9 @@
 //1
 
 function nameCheck(object, string) {
-	var object = {};
-	var string = "";
-	return ("string" in object);
+	var object = {}; // зачем переписали
+	var string = ""; // аргументы?
+	return ("string" in object); // хорошо, но скобки необязательны
 }
 
 //2
@@ -15,12 +15,12 @@ var poorManDinner = {
 		noodles: 1,
 		water: 300"ml"
 	},
-	portions: 1;
+	portions: 1; // 1 не больше 1
 }
 
 function recipe(poorManDinner, people) {
 	if (people > 1) {
-		for (var i in poorManDinner) {
+		for (var i in poorManDinner) { // что будет с полем name? нужно идти по ingridients верно же
 			return (i * people);
 		}
 	}
@@ -31,7 +31,7 @@ function recipe(poorManDinner, people) {
 let cilinder = {
 	radius: x,
 	height: y,
-	volume: function(x, y){
+	volume: function(x, y){ // в задаче нужно объявить объект а после присвоить метод
 		return (this.radius * this.height);
 	}
 }
@@ -43,7 +43,7 @@ let penguin = {
 	creator: "Anno",
 	title: "Evangelion",
 	canfly: false,
-	sayHello: function() {
+	sayHello: function() { // аналогично с 3 задачей
 		console.log("Hi, I am " + this.name + "from" + this.title + "created by" + this.creator);
 	},
 	fly: function() {
