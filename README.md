@@ -71,3 +71,6 @@ https://github.com/AdukarIT/KerelDI/blob/master/java/massives.js
 
 https://github.com/AdukarIT/KerelDI/blob/master/java/objects.js
 
+25. встроенные функции
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/inbuilt.js
