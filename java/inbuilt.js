@@ -31,7 +31,7 @@ function palyndrom(text) {
 	return half == otherHalf;
 }
 
-// task 4
+// task 4  (no tbd)
 
 function mostCommonLetter(text) {
 	let emptyString = "";
@@ -42,7 +42,7 @@ function mostCommonLetter(text) {
 }
 
 
-// task 5
+// task 5  (no tbd)
 
 function textReplacer(str, search, replace) {
 	var array = [];
