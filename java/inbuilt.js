@@ -1,3 +1,5 @@
+// task 1
+
 function getRandomArbitrary(min, max, len) {
   var randomArr = [];
   randomArr.length = len;
@@ -14,4 +16,17 @@ function getRandomArbitrary(min, max, len) {
 		}
 	}
 	return arrayObject;
+}
+
+// task 3
+
+function palyndrom(text) {
+	let half = "",
+	otherHalf = ""
+	;
+	for (var i = 0; i < text.length; i++) {
+		half += text[i];
+		otherHalf += text[text.length-i];
+	}
+	return half == otherHalf;
 }
