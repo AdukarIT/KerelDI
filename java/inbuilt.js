@@ -26,7 +26,7 @@ function palyndrom(text) {
 	;
 	for (var i = 0; i < text.length; i++) {
 		half += text[i];
-		otherHalf += text[text.length-i];
+		otherHalf += text[text.length-(i+1)];
 	}
 	return half == otherHalf;
 }
