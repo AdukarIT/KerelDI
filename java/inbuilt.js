@@ -30,3 +30,27 @@ function palyndrom(text) {
 	}
 	return half == otherHalf;
 }
+
+// task 4
+
+function mostCommonLetter(text) {
+	let emptyString = "";
+
+	for (var i = 0; i < text.length; i++) {
+		emptyString.indexOf(text[i]);
+	}
+}
+
+
+// task 5
+
+function textReplacer(str, search, replace) {
+	var array = [];
+	for (var i = 0; i < str.length; i++) {
+		var numbers = str.indexOf(search, str[i]);
+
+		for (var i = 0; i < str.length; i++) {
+			array[i] = numbers;
+		}
+	}
+}
