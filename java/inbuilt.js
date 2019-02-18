@@ -1,6 +1,6 @@
 // task 1
 
-function getRandomArbitrary(min, max, len) {
+function getRandomArbitrary(min, max, len) { // все же нужно было получить массив а не нагенерить его тут
   var randomArr = [];
   randomArr.length = len;
   for (var i = 0; i < len; i++) {
