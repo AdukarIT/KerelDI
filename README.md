@@ -74,3 +74,15 @@ https://github.com/AdukarIT/KerelDI/blob/master/java/objects.js
 25. встроенные функции
 
 https://github.com/AdukarIT/KerelDI/blob/master/java/inbuilt.js
+
+26. advanced js
+
+-----
+
+27. DOM
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/dom.js
+
+28. Events
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/events.js
