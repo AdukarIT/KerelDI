@@ -1,0 +1,37 @@
+body {
+	background-color: #666;
+}
+
+input {
+	width: 100px;
+	height: 100px;
+	border: 1px dashed blue;
+	float: left;
+}
+
+button {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 55px;
+	height: 55px;
+	background-color: black;
+	border: 2px solid red;
+}
+
+
+table {
+	position: fixed;
+	left: 25%;
+	top: 5%;
+}
+
+.bordered {
+	border: 1px solid black;
+}
+.striped {
+	border: 5px dashed red;
+}
+.highlight {
+	box-shadow: 0 0 8px 8px #fff;
+}
