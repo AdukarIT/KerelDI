@@ -1,13 +1,8 @@
 // 1
 
 function rectangleTriangle(catetA, catetB, hypotenuse) {
-	var catetA = prompt(""),
-	catetB = prompt(""),
-	hypotenuse = prompt("");
-	 if (catetA**2 + catetB**2 == hypotenuse**2) {
-	 	return true; // это нужно оптимизировать
-	 }
-}
+	return catetA**2 + catetB**2 == hypotenuse**2;
+}  //optimised
 
 // 2
 
