@@ -86,3 +86,7 @@ https://github.com/AdukarIT/KerelDI/blob/master/java/dom.js
 28. Events
 
 https://github.com/AdukarIT/KerelDI/blob/master/java/events.js
+
+29. Forms
+
+https://github.com/AdukarIT/KerelDI/blob/master/java/forms.js
