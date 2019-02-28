@@ -7,7 +7,7 @@ elem.setAttribute('class', "www");
 //2. Дан элемент #elem. Проверьте наличие у него класса "www", если есть - удалите класс
 
 if (elem.className == "www") {
-	elem.className = undefined;
+	elem.className = undefined; // удалили все классы, а не www
 }
 
 //3. Напишите функцию поиска recursiveSearchTags, которая принимает на вход document и имя тега, а возвращает массив из всех элементов соответствующих этому тегу. 
@@ -24,7 +24,7 @@ let list = document.getElementsByTagName('ul'),
     array = []
     ;
 
-for (var i = 0; i < array.length; i++) {
+for (var i = 0; i < array.length; i++) { // не понимаю, у вас же массив пустой
     	var listItem = document.createElement('li');
     	listItem.innerHTML = array[i];
     	if (i%2 == 0) {listItem.setAttribute(background-colour, 'red')}
