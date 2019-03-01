@@ -6,7 +6,7 @@
 let nameValue = document.forms[0].elements.name.value,
     minutesValue = document.forms[0].elements.minutes.value
     ;
-document.forms[0].elements[document.getElementsByTagName('input').length - 1].addEventListener('click', function(e){
+document.forms[0].elements[document.getElementsByTagName('input').length - 1].addEventListener('click', function(e){ // записано очень опасно, ну а читать вообще не возможно
 if (!(nameValue.search(/.\D/gi)) || !(minutesValue.search(/.\d/g))) {
 	e.PreventDefault();}
 });
@@ -31,7 +31,7 @@ clear.addEventListener('click', function(e){
 // 5. Написать скрипт, которые заменяет слово «функция» в тексте на «функция», используя регулярные выражения.
 
 let marker = /функция{0,}/g,
-    nodes = document.getElementsByTagName(/[A-Z]/gim);
+    nodes = document.getElementsByTagName(/[A-Z]/gim); // недурно)
     ;
 
 for (var i = 0; i < nodes.length; i++) {
