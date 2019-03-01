@@ -17,7 +17,7 @@ let table = document.getElementById('table');
 table.addEventListener('click', function(e) {
 	table.setAttribute('class', 'bordered');
 
-	table.addEventListener('click', function(e) {
+	table.addEventListener('click', function(e) { // вам не нужны эти все вложенные обработчики, достаточно просто проверок на существующий класс и его изменения
     table.setAttribute('class', 'striped');
 });
 
