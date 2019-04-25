@@ -90,3 +90,8 @@ https://github.com/AdukarIT/KerelDI/blob/master/java/events.js
 29. Forms
 
 https://github.com/AdukarIT/KerelDI/blob/master/java/forms.js
+
+
+Итоговый проект по JS
+
+https://shibuiul.github.io/JS_Project/
